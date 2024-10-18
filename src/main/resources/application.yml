@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: database-account-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: account-db
+
+aws:
+  access-key:
+  secret-key:
+  region: us-east-1
+  queue-arn: 
+
+server:
+  port: 8082
